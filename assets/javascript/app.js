@@ -9,11 +9,18 @@ var timer = 20;
 var intervalId;
 
 // need to start the countdown timer
-
-
+function startTimer() {
+    clearInterval(intervalId);
+    intervalId = setInterval(reduce, 1000);
+    
+}
+// startTimer(); test successful: timer works
 
 // need to display the countdown timer numbers in html
-
+function reduce() {
+    timer--;
+    $('#timer').html("<h2>Vault 111 will close in: " + timer + " Seconds</h2>" + "<br>");
+}
 
 // need to function for the timer
 
