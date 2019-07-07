@@ -48,27 +48,27 @@ $("#start").on("click", function () {
     $("#lady").html("<h3>" + questions[1].question + '</h3>');
     // second guesses
     $("#laura").html("<input type='radio' name='laura' value='0'>" + "<label>" + questions[1].guesses[0] + "</label>" +
-        "<input type='radio' name='laura' value='1'>" + "<label>" + questions[1].guesses[1] + "</label>" +
-        "<input type='radio' name='laura' value='2'>" + "<label>" + questions[1].guesses[2] + "</label>" +
-        "<input type='radio' name='laura' value='3'>" + "<label>" + questions[1].guesses[3] + "</label><br><br>"
+        "<input type='radio' name='laura' value='1'>" + " <label> " + questions[1].guesses[1] + " </label> " +
+        "<input type='radio' name='laura' value='2'>" + " <label> " + questions[1].guesses[2] + " </label> " +
+        "<input type='radio' name='laura' value='3'>" + " <label> " + questions[1].guesses[3] + " </label><br><br>"
     );
 
     // third question
     $("#wow").html("<h3>" + questions[2].question + "</h3>");
     // third guesses
-    $("#mmorpg").html("<input type='radio' name='mmorpg' value='0'>" + "<label>" + questions[2].guesses[0] + "</label>" +
-        "<input type='radio' name='mmorpg' value='1'>" + "<label>" + questions[2].guesses[1] + "</label>" +
-        "<input type='radio' name='mmorpg' value='2'>" + "<label>" + questions[2].guesses[2] + "</label>" +
-        "<input type='radio' name='mmorpg' value='3'>" + "<label>" + questions[2].guesses[3] + "</label><br><br>"
+    $("#mmorpg").html("<input type='radio' name='mmorpg' value='0'>" + " <label> " + questions[2].guesses[0] + " </label> " +
+        "<input type='radio' name='mmorpg' value='1'>" + " <label> " + questions[2].guesses[1] + " </label> " +
+        "<input type='radio' name='mmorpg' value='2'>" + " <label> " + questions[2].guesses[2] + " </label> " +
+        "<input type='radio' name='mmorpg' value='3'>" + " <label> " + questions[2].guesses[3] + " </label><br><br>"
     );
 
     // fourth question
     $("#megaman").html("<h3>" + questions[3].question + "</h3>");
     // fourth guesses
-    $("#wily").html("<input type='radio' name='wily' value='0'>" + "<label>" + questions[3].guesses[0] + "</label>" +
-        "<input type='radio' name='wily' value='1'>" + "<label>" + questions[3].guesses[1] + "</label>" +
-        "<input type='radio' name='wily' value='2'>" + "<label>" + questions[3].guesses[2] + "</label>" +
-        "<input type='radio' name='wily' value='3'>" + "<label>" + questions[3].guesses[3] + "</label><br><br>"
+    $("#wily").html("<input type='radio' name='wily' value='0'>" + " <label> " + questions[3].guesses[0] + " </label> " +
+        "<input type='radio' name='wily' value='1'>" + " <label> " + questions[3].guesses[1] + " </label> " +
+        "<input type='radio' name='wily' value='2'>" + " <label> " + questions[3].guesses[2] + " </label> " +
+        "<input type='radio' name='wily' value='3'>" + " <label> " + questions[3].guesses[3] + " </label><br><br>"
     );
 
     // submit button for when the questions are answered by the user

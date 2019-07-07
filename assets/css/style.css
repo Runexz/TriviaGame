@@ -42,3 +42,15 @@ h1 {
     background: red;
     border: 3px solid blue;
 }
+
+/* how to get spacing between answer choices? */
+label {
+    margin-right: 30px;
+}
+/* input[type="radio"] {
+    margin-right: 0;
+  } */
+
+  /* label {
+    margin-left: -3px;
+  } */
