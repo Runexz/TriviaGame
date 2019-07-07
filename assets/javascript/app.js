@@ -20,10 +20,16 @@ function startTimer() {
 function reduce() {
     timer--;
     $('#timer').html("<h2>Vault 111 will close in: " + timer + " Seconds</h2>" + "<br>");
+
+    if (number === 0) {
+        stop();
+    }
 }
 
-// need to function for the timer
-
+// need to function to stop the timer
+    function stop() {
+        clearInterval(intervalId);
+    }
 
 // questions to be produced when the button is clicked
 
