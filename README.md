@@ -20,4 +20,4 @@ https://runexz.github.io/TriviaGame/
 
 ## Example of game
 
-(/assets/images/triviaExample.png)
+![Trivia example](https://github.com/Runexz/TriviaGame/blob/master/assets/images/triviaExample.png)
