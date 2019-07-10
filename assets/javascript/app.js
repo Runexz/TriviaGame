@@ -13,11 +13,11 @@ var questions = [{
     guesses: ["Nintendo", "Sega", "Sony", "Microsoft"],
     answer: 0
 }, {
-    question: "This lady of action uses guns, solves puzzles, and had movies based on her adventures.",
+    question: "This lady of action uses guns, solves puzzles, and had movies based on her adventures. Who is she?",
     guesses: ["Laura Croft", "Princess Peach", "Link", "Aerith"],
     answer: 0
 }, {
-    question: "What acronym best describes the game World of Warcraft",
+    question: "What acronym best describes the game World of Warcraft?",
     guesses: ["MMORPG", "MOBA", "RPG", "TBS"],
     answer: 0
 }, {
@@ -72,7 +72,7 @@ $("#start").on("click", function () {
     );
 
     // submit button for when the questions are answered by the user
-    $("#submit").html("<button id='done' class='btn'>Done</button>");
+    $("#submit").html("<button id='done' class='btn'>Collect your Trophy!</button>");
 
     // grab the id done and make a on click function that will show the results and hide the questions
     $("#done").on("click", function() {
