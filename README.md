@@ -14,10 +14,10 @@ You have _50 seconds_ to make your choices.
 * When you have answered all the questions click the button at the bottom to see your results.
 * If the **timer** reaches 0 you will be teleported to the results page!
 
-## Proceed to next level
+## Proceed to the next level.
 Here is the link to the game! You can do it!
 https://runexz.github.io/TriviaGame/
 
-## Example of game
+## Example of the game.
 
 ![Trivia example](https://github.com/Runexz/TriviaGame/blob/master/assets/images/triviaExample.png)
