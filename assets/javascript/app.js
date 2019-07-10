@@ -75,13 +75,13 @@ $("#start").on("click", function () {
     $("#submit").html("<button id='done' class='btn'>Collect your Trophy!</button>");
 
     // grab the id done and make a on click function that will show the results and hide the questions
-    $("#done").on("click", function() {
+    $("#done").on("click", function () {
         stop();
         // checks the questions and answers
         scoreChecker();
         // hiding questions and displays results
         theEnd();
-        
+
     });
 
 
@@ -102,7 +102,7 @@ function reduce() {
 
     if (timer === 0) {
         stop();
-        
+
         scoreChecker();
         theEnd();
     }
@@ -137,7 +137,7 @@ function theEnd() {
 
 // need to store the right, wrong, unanswered and display to html
 function scoreChecker() {
-    
+
     var userChoice1 = $("input[name='nintendo']:checked").val();
     // console.log(userChoice1);  this works
     var userChoice2 = $("input[name='laura']:checked").val();
