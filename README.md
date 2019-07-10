@@ -20,5 +20,4 @@ https://runexz.github.io/TriviaGame/
 
 ## Example of game
 
-![Video game trivia example]
 (/assets/images/triviaExample.png)
